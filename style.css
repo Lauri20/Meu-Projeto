@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  height: 180vh;
+}
+
+.container{
+  background-color: black;
+  height: 500px;
+  margin: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.area{
+  width: 100px;
+  height: 100px;
+}
+
+.item-1{
+  background-color: red;
+  align-self: flex-end;  
+}
+
+.item-2{
+  background-color: blue;
+  align-self: flex-start;
+}
+
+.item-3{
+  background-color: orange;
+}
+
+
+.item-4{
+  background-color: purple;
+  align-self: flex-end;
+}
+
+
